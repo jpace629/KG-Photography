@@ -1,0 +1,92 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: aliceblue;
+}
+
+.site-title{
+	border-bottom: solid black 1px;
+	color: black;
+	font-family: Arial Narrow;
+	text-align: center;
+}
+
+.main-nav li{
+	text-align: center;
+	text-decoration: none;
+}
+
+.main-nav li::after{
+	content:' | ';
+	padding-left: 80px;
+}
+
+.main-nav li:last-child::after {
+	content: '';
+}
+
+.main-nav a{
+	color: darkgrey;
+	font-family: Arial Narrow;
+	font-size: 1.5em;
+	transition: all 500ms;
+}
+
+.main-splash-photo img{
+	border-radius: 5px;
+}
+
+.hero-section{
+	padding-top: 10px;
+}
+
+.hero-section-descriptors li{
+	text-align: center;
+}
+
+.hero-section-descriptors a{
+	color: black;
+}
+
+.hero-tiles img{
+	border-radius: 5px;
+}
+
+.sub-footer-items{
+	text-align: center;
+}
+
+.sub-footer-items ul li{
+	width: 100px;
+}
+
+.sub-footer-items li::after {
+	content: ' | ';
+	padding-left: 10px;
+}
+
+.sub-footer-items li:last-child::after {
+	content: '';
+}
+
+.sub-footer-items a{
+	color: darkgrey;
+}
+
+.kg-logo{
+	border-top: solid black 1px;
+	text-align: center;
+}
+
+.kg-logo img{
+	width: 100px;
+}
+
+i{
+	color: black;
+	padding: 5px;
+}
